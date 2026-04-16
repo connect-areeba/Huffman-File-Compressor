@@ -1,0 +1,29 @@
+Hello world! This is an extended sample text file created specifically for testing file handling and compression algorithms like Huffman encoding in C++.
+ When building a file compressor, it is important to test your program with larger inputs so that the efficiency and correctness of the algorithm can be properly 
+ evaluated. This text includes a mix of short and long words, repeated patterns, and different characters to simulate a realistic dataset.
+
+Data compression is a fundamental concept in computer science that helps reduce the storage size of files and improves transmission speed over networks.
+ Huffman encoding, which is a greedy algorithm, works by assigning shorter binary codes to frequently occurring characters and longer codes to less frequent ones.
+ 
+  This ensures that the overall size of the encoded data is minimized without losing any information. Because of this,
+   Huffman encoding is widely used in file compression formats and communication systems.
+
+In a normal text file, some letters like 'e', 't', 'a', 'o', and 'n' appear very frequently, while others like 'z', 'x', and 'q' appear less often.
+ Huffman encoding takes advantage of this uneven distribution by creating a binary tree where each character is represented by a unique path.
+  The construction of this tree involves repeatedly combining the two least frequent nodes until only one root node remains. From this tree,
+   binary codes are generated and used to encode the original data.
+
+This paragraph intentionally repeats important words such as data, compression, encoding, algorithm, file, 
+and frequency multiple times so that your program can detect patterns easily. The presence of repetition improves the compression ratio because the algorithm
+ can assign shorter codes to common words and characters. At the same time, the paragraph also includes enough variation to ensure that your implementation handles all
+  types of characters correctly.
+
+When you run your program using this file as input, you should check several things. First, verify that the file is opened and read correctly using file handling 
+techniques. Second, ensure that the frequency of each character is calculated accurately. Third, confirm that the Huffman tree is built correctly and that each 
+character receives a valid binary code. Fourth, test the encoding process to see if the output is smaller in size compared to the original file. Finally, implement
+ and test the decoding process to make sure the original text can be reconstructed perfectly.
+
+Practicing with larger inputs like this will help you identify bugs, improve your logic, and optimize your code. It will also give you a better 
+understanding of how real-world compression systems work. Keep experimenting with different types of text files, including those with high repetition and
+ those with more randomness, to fully test the capabilities of your file compressor project. Consistent practice and testing will make your implementation stronger,
+  more efficient, and ready for real-world applications.
