@@ -109,7 +109,7 @@ int main() {
 
     cout << "\nEncoded Data:\n" << encoded << endl;
 
-    // 6. 🔥 REAL COMPRESSION (BINARY WRITE)
+    // 6. REAL COMPRESSION (BINARY WRITE)
     ofstream out("compressed.bin", ios::binary);
 
     unsigned char byte = 0;
